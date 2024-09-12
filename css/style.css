@@ -1,0 +1,117 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#play-store {
+  margin-right: 5px;
+}
+
+.custom-button {
+  color: white;
+  border-color: white;
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+
+#doggo {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#review {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+#TNW {
+  @media (max-width: 705px) {
+    width: 70px;
+  }
+}
+
+.company-images {
+  height: 30px;
+
+  @media (max-width: 705px) {
+    display: flex;
+    width: 150px;
+
+  }
+}
+
+.company-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  @media (max-width: 705px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+  }
+}
+
+.pricing-container {
+  margin-left: 100px ;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.pricing-header, .pricing-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+#Pekingese-button {
+  color: #424649;
+  background-color: white;
+  border-color: #424649;
+}
+
+#Pekingese-button:hover {
+  color: white;
+  background-color: rgb(30,30,30);
+  border-color: rgb(30,30,30);
+}
+
+
+
+#Mastiff {
+  border-color: black;
+}
+
+
+
